@@ -1,0 +1,13 @@
+.dataContainer{
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.innerContainer{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ font-weight: 500;
+}
