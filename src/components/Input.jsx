@@ -27,12 +27,12 @@ const Input = () => {
         type="text"
         ref={todoNameElement}
         placeholder="Enter a Task Here.."
-      />
+      required/>
       <input
       ref={todoDateElement}
-      type="date" />
+      type="date" required/>
       <button className="btn" >
-        Add
+        Add To List
       </button>
      </form>
 
